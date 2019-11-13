@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background: rgb(167, 112, 72);
+}
+
+.banner {
+    width: 100%;
+    padding: 5rem 2rem;
+    text-align: center;
+    background: url("../img/fondo2.png");
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    color: #f1f1f1;
+}
+
+.container {
+    
+    width: 100%;
+    height: 60px;
+    background: rgb(240, 196, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    margin-left: 10%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.item-options {
+    color: black;
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+.item-options:hover {
+    color: white;
+    
+}
+
+.main-container {
+    width: 100%;
+   text-align: center;
+   
+}
+.compra{
+text-align: center;
+background: rgb(219, 153, 106);
+margin: 0 auto;
+width: 60%;
+height: 730px;;
+border: 1px solid black;
+}
+
+.ecompra{
+
+    background: url("../../../img/pequeña2.png");
+    background-size: cover;
+    background-position: center;
+    float: right;
+    margin-right: 8%;
+    margin-top: 20px;
+    width: 45vh;
+    height: 45vh;
+    cursor: pointer;
+   
+}
+.ecompra2{
+
+    background: url("../../../img/pequeña.png");
+    background-size: cover;
+    background-position: center;
+    float: right;
+    margin-right: 8%;
+    margin-top: 5px;
+    width: 45vh;
+    height: 45vh;
+    cursor: pointer;
+   
+}
+
+.ecompra2 :hover{
+
+    transform: scale(1.2);
+    animation:mianimacion 2s;
+
+
+}
+.whasaap{
+
+    margin: auto;
+    background: url("../../../img/ayudacompra.PNG");
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    width: 40vh;
+    height: 8vh;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.texto{
+margin-top: 50px;
+width: 48%;
+height: 550px;
+float: left;
+font-size: 13px;
+text-align: center;
+margin-left: 40px;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: red;
+}
+
+.aurora{
+
+    color: aquamarine;
+
+}
+
+p::first-line {
+    color: bisque;
+    
+}
+
+
+.envio1{
+margin: 0 auto;
+background: chocolate;
+border-radius: 8px;
+width: 80%;
+}
+
+.envio1 img{
+float: left;
+margin-left: 25px;
+margin-top: 3px;
+}
+
+.texto form{
+    margin: 0 auto;
+    background: orange;
+    border-radius: 8px;
+    width: 80%;
+    
+}
+.texto form img{
+    float: left;
+    margin-left: 25px;
+    margin-top: 4px;
+
+}
+.seguro1{
+    font-size: 1.19em;
+    margin-left: -25px
+
+}
+
+
+
+.boton{
+
+    margin-top: 7%;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    width: 150px;
+  
+  }
+  
+  .boton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    border-radius: 17px;
+  }
+  
+  .boton img{
+
+    float: left;
+    
+
+  }
+
+  #pie{
+
+font-size: 8px;
+
+  }
+  
+  input:checked + span {
+    background-color: black;
+    color: wheat;
+    padding: 4px;
+  }
+
+
+  .boton:active {
+    border: 2px solid #FF0000;
+    color: black;
+  }

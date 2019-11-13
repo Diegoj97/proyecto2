@@ -1,0 +1,146 @@
+/* pseudoelementos */
+
+p::first-line {
+    color: rgb(228, 172, 88);
+      
+  }
+  
+  h1::first-letter{
+  
+    font-size: 30px;
+    color: rgb(146, 110, 44);
+  
+  }
+   p::after{
+  
+    content: ".";
+  
+  }
+  
+  h1::before{
+  
+    content: "-";
+  
+  }
+
+
+  /* pseudoclases */
+
+
+  h1:first-child {
+    color: white;
+  }
+
+  h1:last-child{
+    color: black;
+  }
+
+  .ram:hover{
+        
+    transform: scale(1.2);
+    animation:mianimacion 2s;
+    
+}
+.are:hover{
+
+    transform: scale(1.2);
+    animation:mianimacion 2s;
+    
+}
+.uare:hover{
+
+    transform: scale(1.2);
+    animation:mianimacion 2s;
+    
+}
+.uare:active {
+    border: 2px solid #FF0000;
+    padding: 2px
+  }
+  .ram:active {
+    border: 2px solid #FF0000;
+    padding: 2px
+  }
+  .are:active {
+    border: 2px solid #FF0000;
+    padding: 2px
+}
+
+.caja form .boton:active {
+	color: black;
+  }
+
+
+.caja form .btn-submit:hover {
+    background: rgba(94,125,227, .9);
+    transform: scale(1.1);
+}
+
+
+.overlay.active {
+	visibility: visible;
+}
+
+
+.caja .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+
+
+
+q:lang(no) {
+  quotes: "~" "~";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.caja.active {	transform: scale(1); opacity: 1; }
+.caja.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.caja.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.caja.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}

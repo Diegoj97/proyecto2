@@ -1,0 +1,66 @@
+.boton{
+    margin-top: 1%;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    background-color:  rgba(94,125,227, .9);
+    border-bottom-right-radius: 20px;
+   
+  }
+  
+  .boton:hover{
+    cursor: pointer;
+    color: white;
+    background-color:  rgba(118, 142, 221, 0.9);
+    border-radius: 6px;
+  }
+  .redes{
+
+    margin: auto;
+    padding: 2px;
+    font-size: 45px;
+    height: 40px;
+    width: 200px; 
+    text-align: center;
+    
+    }
+    
+    .ram:hover{
+    
+        transform: scale(1.2);
+        animation:mianimacion 2s;
+        
+    }
+    .are:hover{
+    
+        transform: scale(1.2);
+        animation:mianimacion 2s;
+        
+    }
+    .uare:hover{
+    
+        transform: scale(1.2);
+        animation:mianimacion 2s;
+        
+    }
+    .uare:active {
+        border: 2px solid #FF0000;
+        padding: 2px
+      }
+      .ram:active {
+        border: 2px solid #FF0000;
+        padding: 2px
+      }
+      .are:active {
+        border: 2px solid #FF0000;
+        padding: 2px
+      }
+      
+      input:checked + span {
+        background-color: black;
+        color: wheat;
+        padding: 4px;
+      }
+    

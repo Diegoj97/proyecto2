@@ -1,0 +1,120 @@
+
+
+.cuerpo2{
+
+    margin: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: rgb(219, 153, 106);
+
+ }
+
+    .tachado {
+    text-decoration: line-through;
+    color: rgb(2, 19, 112);
+}
+
+ 
+
+
+.e1{
+
+    background: url("../img/tablets/1.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+
+   
+}
+
+
+.e2{
+
+    background: url("../img/tablets/2.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+   
+   
+}
+
+
+
+.e3{
+
+    background: url("../img/tablets/3.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+   
+   
+}
+
+.e4{
+
+    background: url("../img/tablets/4.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+  
+   
+}
+.e5{
+
+    background: url("../img/tablets/5.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+   
+   
+}
+
+.e6{
+
+    background: url("../img/tablets/6.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+  
+   
+}
+
+
+.e7{
+
+    background: url("../img/tablets/7.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+    
+   
+}
+
+
+.e8{
+
+    background: url("../img/tablets/8.png");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    width: 25vh;
+    height: 35vh;
+ 
+   
+}
+

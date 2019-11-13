@@ -1,0 +1,26 @@
+@font-face{
+font-family: portada;
+font-weight: normal;
+font-style: normal;
+src: url("../../fuentes/Neon.ttf");
+
+
+}
+
+@font-face{
+    font-family: texto;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../../fuentes/Prisma.otf");
+    
+    
+    }
+
+    h1{  
+        font-family: texto;      
+
+    }
+
+    p{
+        font-family: portada;
+    }

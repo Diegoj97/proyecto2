@@ -1,0 +1,200 @@
+
+            
+            .cuerpo2{
+            
+                margin: auto;
+                width: auto;
+                height: auto;
+                text-align: center;
+                background: rgb(219, 153, 106);
+            
+             }
+            
+                .tachado {
+                text-decoration: line-through;
+                color: rgb(2, 19, 112);
+            }
+            
+             .c1{
+            
+                cursor: pointer;
+                display: inline-block;
+                width: 45%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            
+            }
+            
+            
+            .e1{
+            
+                background: url("../../../img/telefonos/1.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+            
+               
+            }
+            
+            .c2{
+                cursor: pointer;
+                display: inline-block;
+                width: 50%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            }
+            
+            .e2{
+            
+                background: url("../../../img/telefonos/2.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+               
+               
+            }
+            
+            
+            .c3{
+                cursor: pointer;
+                display: inline-block;
+                width: 45%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            }
+            
+            .e3{
+            
+                background: url("../../../img/telefonos/3.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+               
+               
+            }
+            
+            .c4{
+                cursor: pointer;
+                display: inline-block;
+                width: 50%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            }
+            .e4{
+            
+                background: url("../../../img/telefonos/4.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+              
+               
+            }
+            .c5{
+                cursor: pointer;
+                display: inline-block;
+                width: 45%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            
+            }
+            .e5{
+            
+                background: url("../../../img/telefonos/5.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+               
+               
+            }
+            .c6{
+            
+                cursor: pointer;
+                display: inline-block;
+                width: 45%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            
+            }
+            .e6{
+            
+                background: url("../../../img/telefonos/6.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+              
+               
+            }
+            
+            .c7{
+                cursor: pointer;
+                display: inline-block;
+                width: 45%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            
+            
+            }
+            .e7{
+            
+                background: url("../../../img/telefonos/7.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+                
+               
+            }
+            
+            .c8{
+                cursor: pointer;
+                display: inline-block;
+                width: 50%;
+                height: 60vh;
+                margin: 7px;
+                text-align: center;
+            
+            }
+            .e8{
+            
+                background: url("../../../img/telefonos/8.png");
+                background-size: cover;
+                background-position: center;
+                margin: auto;
+                width: 25vh;
+                height: 35vh;
+             
+               
+            }
+            

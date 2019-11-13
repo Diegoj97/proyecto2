@@ -1,0 +1,51 @@
+
+
+/* elementos que empiezan */
+
+a[href*="i"] {
+   
+    color: fuchsia;
+  }
+  
+  /* elementos  que termina en */
+
+
+a[href$="s"] {
+
+    color: gold;
+
+  }
+  
+    /* elementos  que contiene */
+
+  a[href="https://es-es.facebook.com/"] {
+    color: green;
+  }
+
+/* pseudoelementos */
+
+
+p span:first-child {
+  text-decoration: line-through;
+  color: rgb(2, 19, 112);
+} 
+
+
+/* Selector hijo  */
+
+
+p + p{
+  color:red;
+}
+
+
+section > p{
+  padding : 1rem;
+}
+
+
+/* Selector descendiente  */
+
+section h2{
+  padding : 1rem;
+}
